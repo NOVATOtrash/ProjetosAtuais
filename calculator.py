@@ -27,6 +27,6 @@ while True:
     elif var == 'mm' or var == 'milimetro' or var == 'milímetro' or var == 'milimetros' or var == 'milímetros':
         print(' {} m são {} {}' .format(m,mm,var))   
     elif var == 'm' or var == 'metro' or var == 'metros':
-        print('Já ta em metro animal!')    
+        print('Sua medida já está em {}' .format(var))    
     else:
        print('Tente novamente usando outro tipo de medida!')            
